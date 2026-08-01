@@ -1,8 +1,32 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 aid: preql
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/preql.png
 name: Preql
-description: 'Preql is a company surfaced as a portfolio company of bessemer-venture-partners, felicis
-  and added to the API Evangelist network as a stub for enrichment. Sector: developer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Preql (preql.ai) is an enterprise data platform that automates data cleaning,
+  reconciliation, and semantic modeling to deliver the trustworthy context layer that AI
+  agents and business analytics depend on. Its agentic platform combines Agentic Semantic
+  Modeling, Data Cleaning Agents, and AI-Powered Reporting to automatically resolve data
+  mismatches, schema drift, and anomalies across ERP, CRM, HR, and expense systems without
+  manual intervention, serving finance, operations, revenue, and executive decision-making
+  at large enterprises. The company was surfaced as a portfolio company of Bessemer Venture
+  Partners and Felicis, and added to the API Evangelist network. Preql does not currently
+  publish a public developer API, developer portal, or API reference; this profile captures
+  its public company identity, help center, and web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/preql/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Developer
+- Data
+- Artificial Intelligence
+- Analytics
+- Data Cleaning
+- Semantic Modeling
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +54,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/preql-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.preql.ai/security
+- type: DomainSecurity
+  url: security/preql-domain-security.yml
 - type: Website
-  url: https://www.preql.com/
+  url: https://www.preql.ai/
+- type: HelpCenter
+  url: https://help.preql.com/
+- type: Blog
+  url: https://www.preql.ai/blog
+- type: SignUp
+  url: https://app.preql.com/sign-in
+- type: Login
+  url: https://app.preql.com/sign-in
+- type: TermsOfService
+  url: https://www.preql.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.preql.ai/privacy-notice
