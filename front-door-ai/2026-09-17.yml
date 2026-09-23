@@ -1,0 +1,31 @@
+# Front Door AI Index — preql — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: preql
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.preql.ai
+  final_host: www.preql.ai
+  ownership: own
+  owner: preql
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 25
+  host_score: 25
+  density: 21.44
+  words: 1166
+  tiers:
+    agentic: 11
+    core: 14
+    model: 0
+  ambiguous: 9
+  top_terms:
+    AI: 14
+    agentic: 5
+    agent: 4
+    copilot: 4
+    intelligence: 4
+    AI agent: 2
+    automation: 1
